@@ -25,3 +25,8 @@ tokio = { version = "1.19.2", features = ["full"] }
 url = "2.2.2"
 walkdir = "2.3.2"
 zip = "0.6.2"
+
+[profile.release]
+opt-level = 3
+debug = 0
+overflow-checks = false
