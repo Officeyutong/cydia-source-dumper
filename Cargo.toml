@@ -1,0 +1,27 @@
+[package]
+name = "cydia-source-dumper"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.57"
+bzip2-rs = "0.1.2"
+clap = { version = "3.1.18", features = ["derive"] }
+# console-subscriber = "0.1.6"
+debcontrol = "0.1.1"
+flexi_logger = "0.22.5"
+gzip = "0.1.2"
+log = "0.4.17"
+lzma-rs = "0.2.0"
+md5 = "0.7.0"
+num_cpus = "1.13.1"
+rand = "0.8.5"
+reqwest = "0.11.10"
+sha1 = "0.10.1"
+sha2 = "0.10.2"
+tokio = { version = "1.19.2", features = ["full"] }
+url = "2.2.2"
+walkdir = "2.3.2"
+zip = "0.6.2"
