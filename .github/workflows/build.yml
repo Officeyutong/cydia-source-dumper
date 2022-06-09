@@ -49,7 +49,7 @@ jobs:
         with:
           name: artifact
           path: |
-            target/release/special-friends_*
+            target/release/cydia-source-dumper*
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
