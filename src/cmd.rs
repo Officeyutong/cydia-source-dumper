@@ -1,7 +1,7 @@
 use clap::Parser;
 
 #[derive(Parser, Debug)]
-#[clap(author, version, about = "by MikuNotFoundException")]
+#[clap(author, version, after_help = "一个用以爬取或备份Cydia源内容的工具。")]
 pub struct Args {
     #[clap(help = "仓库URL")]
     pub repo_url: String,
